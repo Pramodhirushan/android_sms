@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/bus"
+        android:layout_marginTop="40dp"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp"
+        android:text="Mihisara Auto Reservation"
+        android:textColor="@color/startblue"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/textMsg"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:hint="Enter your message"
+        android:textColor="#C6FFD500"
+        android:fontFamily="sans-serif-light"
+        android:textSize="25sp"
+        android:layout_marginTop="35dp"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/textPhoneNo"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:ems="10"
+        android:inputType="phone"
+        android:hint="Contact no"
+        android:textColor="#C6FFD500"
+        android:fontFamily="sans-serif-light"
+        android:textSize="25sp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/send"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/butttonstyleithgradient"
+        android:fontFamily="sans-serif-light"
+        android:text="Send"
+        android:textColor="#fff"
+        android:textSize="25sp" />
+
+</LinearLayout>
